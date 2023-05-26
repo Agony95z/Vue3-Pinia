@@ -4,6 +4,8 @@ import { buyProducts, IProduct } from "../api/shop"
 // 跨容器模块
 import {useProductsStore} from "./products"
 // Omit 过滤
+// Pick 挑选 Pick<IProduct, 'inventory'> // 取inventory
+// 测试直接提交
 // &合并
 type CartProduct = {
   quantity: number
